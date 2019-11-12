@@ -1,0 +1,3256 @@
+-----------------------------------
+2019-11-10 00:19:03
+update art set pv=pv+1 where art_id=13 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:19:03
+select title,des,tags,add_time,pv,contents from art where art_id=13
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:19:03
+select * from comment where art_id=13 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:19:03
+select count(*) as count from comment where art_id=13
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:19:03
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:19:03
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:19:03
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:28:04
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:28:04
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:28:04
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:28:04
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:31:32
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:31:32
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:31:32
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:31:32
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:31:32
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:31:32
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:48:01
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:48:01
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:48:01
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:48:01
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:48:02
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:48:02
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:48:02
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 00:48:02
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 02:13:36
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 02:13:36
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 02:13:36
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 02:13:36
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 02:14:06
+update art set pv=pv+1 where art_id=42 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 02:14:06
+select title,des,tags,add_time,pv,contents from art where art_id=42
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 02:14:06
+select * from comment where art_id=42 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 02:14:06
+select count(*) as count from comment where art_id=42
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 02:14:06
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 02:14:06
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 02:14:06
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 05:33:00
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 05:33:00
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 05:33:00
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 05:33:00
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 05:34:52
+update art set pv=pv+1 where art_id=41 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 05:34:52
+select title,des,tags,add_time,pv,contents from art where art_id=41
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 05:34:52
+select * from comment where art_id=41 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 05:34:52
+select count(*) as count from comment where art_id=41
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 05:34:52
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 05:34:52
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 05:34:52
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 06:06:28
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 06:06:28
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 06:06:28
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 06:06:28
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:13
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:13
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:13
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:13
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:13
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:13
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:13
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:13
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+update art set pv=pv+1 where art_id=43 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select title,des,tags,add_time,pv,contents from art where art_id=43
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select * from comment where art_id=43 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select count(*) as count from comment where art_id=43
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+update art set pv=pv+1 where art_id=43 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select title,des,tags,add_time,pv,contents from art where art_id=43
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select * from comment where art_id=43 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select count(*) as count from comment where art_id=43
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:24:27
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:32:29
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:32:29
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:32:29
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:32:29
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:34:17
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:34:17
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:34:17
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:44:16
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:44:16
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:44:16
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:44:16
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:49:38
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:49:38
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:49:38
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:49:38
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:55:42
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:55:42
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:55:42
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:55:42
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:55:43
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:55:43
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:55:43
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 08:55:43
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:04:08
+update art set pv=pv+1 where art_id=42 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:04:08
+select title,des,tags,add_time,pv,contents from art where art_id=42
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:04:08
+select * from comment where art_id=42 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:04:08
+select count(*) as count from comment where art_id=42
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:04:08
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:04:08
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:04:08
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:06:20
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:06:20
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:06:20
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:06:20
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:06:22
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:06:22
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:06:22
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:06:22
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:13:05
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:13:05
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:13:05
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:13:05
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:13:06
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:13:06
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:13:06
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:13:06
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:21:00
+update art set pv=pv+1 where art_id=14 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:21:00
+select title,des,tags,add_time,pv,contents from art where art_id=14
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:21:00
+select * from comment where art_id=14 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:21:00
+select count(*) as count from comment where art_id=14
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:21:00
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:21:00
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 09:21:00
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 10:35:17
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 10:35:17
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 10:35:17
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 10:35:17
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 10:35:18
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 10:35:18
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 10:35:18
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 10:35:18
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:01
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:01
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:01
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:01
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:01
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:01
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:01
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:01
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:12:34
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:19:53
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:19:53
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:19:53
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:19:53
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:21:35
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:21:35
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:21:35
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:21:35
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:27
+update art set pv=pv+1 where art_id=41 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:27
+select title,des,tags,add_time,pv,contents from art where art_id=41
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:27
+select * from comment where art_id=41 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:27
+select count(*) as count from comment where art_id=41
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:27
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:27
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:27
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:45
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:45
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:45
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:45
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:46
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:46
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:46
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:46
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:53
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:53
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:53
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:53
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:54
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:54
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:54
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:34:54
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:52:56
+update art set pv=pv+1 where art_id= 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:52:56
+select title,des,tags,add_time,pv,contents from art where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:52:58
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:52:58
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:52:58
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 11:52:58
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:00:45
+update art set pv=pv+1 where art_id= 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:00:45
+select title,des,tags,add_time,pv,contents from art where art_id=
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:00:46
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:00:46
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:00:46
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:00:46
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:36:55
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:36:55
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:36:55
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:36:58
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:36:58
+select count(*) from art where true 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:36:58
+select art_id,pic,title,des,tags,add_time,pv from art where true  order by add_time desc LIMIT 0,1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:36:58
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:36:58
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:36:58
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:37:10
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:37:10
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:37:10
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:37:32
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:37:32
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:37:32
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 12:37:32
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:04:38
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:04:38
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:04:38
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:04:58
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:04:58
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:04:58
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:04:58
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:14:18
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:14:18
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:14:18
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:14:18
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:15:01
+update art set pv=pv+1 where art_id=43 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:15:01
+select title,des,tags,add_time,pv,contents from art where art_id=43
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:15:01
+select * from comment where art_id=43 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:15:01
+select count(*) as count from comment where art_id=43
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:15:01
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:15:01
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:15:01
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:18:33
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:18:33
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:18:33
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:18:33
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:28:24
+select * from user where name='' and password=''
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:36:51
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:36:51
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:36:51
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:36:51
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:37:46
+select * from user where name='别' and password='g'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:48:27
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:48:27
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:48:27
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:48:27
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 13:52:06
+select * from user where name='' and password=''
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:00:54
+select * from user where name='。' and password='.'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:03:16
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:03:16
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:03:16
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:03:16
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:04:02
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:04:02
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:04:02
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:04:02
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:09:33
+select * from user where name='' and password=''
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:09:58
+select * from user where name='zhang' and password='123456'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:09:58
+insert into log (user_name,ip,time,browser,os,adress) values ('zhang','58.243.151.114','1573366198','Chrome','Windows 10','安徽蚌埠')
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:09:58
+update user set updated_at='1573366198',login_ip='58.243.151.114',login_times=login_times+1 where name='zhang'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:00
+select count(*)  from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:00
+select count(*)  from comment
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:00
+select count(*) from link 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:00
+select count(*) from log 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:00
+select login_times from user  where name='zhang'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:00
+select updated_at from user  where name='zhang'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:00
+select login_ip from user  where name='zhang'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:25
+select count(*)  from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:25
+select count(*)  from comment
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:25
+select count(*) from link 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:25
+select count(*) from log 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:25
+select login_times from user  where name='zhang'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:25
+select updated_at from user  where name='zhang'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:25
+select login_ip from user  where name='zhang'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:28
+select art_id,title,catname,pv,add_time,tags from art,cat where art.cat_id=cat.cat_id
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:34
+select * from user where name='zhang' and password=''
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:42
+select * from user where name='admin' and password='980913'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:42
+insert into log (user_name,ip,time,browser,os,adress) values ('admin','58.243.151.114','1573366242','Chrome','Windows 10','安徽蚌埠')
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:42
+update user set updated_at='1573366242',login_ip='58.243.151.114',login_times=login_times+1 where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:43
+select count(*)  from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:43
+select count(*)  from comment
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:43
+select count(*) from link 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:43
+select count(*) from log 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:43
+select login_times from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:43
+select updated_at from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:43
+select login_ip from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:10:56
+select art_id,title,catname,pv,add_time,tags from art,cat where art.cat_id=cat.cat_id
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:09
+select count(*) from comment
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:09
+select comment_id,art.art_id,comm,time,author,title from comment,art where comment.art_id=art.art_id order by comment_id desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:15
+select count(*) from comment
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:15
+select comment_id,art.art_id,comm,time,author,title from comment,art where comment.art_id=art.art_id order by comment_id desc LIMIT 6,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:22
+select * from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:26
+select * from link order by link_id desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:30
+select count(*) from comment
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:30
+select * from log order by log_id desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:49
+select count(*)  from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:49
+select count(*)  from comment
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:49
+select count(*) from link 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:49
+select count(*) from log 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:49
+select login_times from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:49
+select updated_at from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 14:11:49
+select login_ip from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 15:24:34
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 15:24:34
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 15:24:34
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 15:24:34
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 16:30:42
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 16:30:42
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 16:30:42
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 16:30:42
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 16:58:43
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 16:58:43
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 16:58:43
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 16:59:06
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 16:59:06
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 16:59:06
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 16:59:06
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:12:21
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:12:21
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:12:21
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:12:21
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:12:23
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:12:23
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:12:23
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:12:23
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:13
+update art set pv=pv+1 where art_id=43 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:13
+select title,des,tags,add_time,pv,contents from art where art_id=43
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:13
+select * from comment where art_id=43 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:13
+select count(*) as count from comment where art_id=43
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:13
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:13
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:13
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:59
+update art set pv=pv+1 where art_id=39 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:59
+select title,des,tags,add_time,pv,contents from art where art_id=39
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:59
+select * from comment where art_id=39 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:59
+select count(*) as count from comment where art_id=39
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:59
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:59
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:17:59
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:18:15
+update art set pv=pv+1 where art_id=39 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:18:15
+select title,des,tags,add_time,pv,contents from art where art_id=39
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:18:15
+select * from comment where art_id=39 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:18:15
+select count(*) as count from comment where art_id=39
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:18:15
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:18:15
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:18:15
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:30:42
+select * from link where udit=1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:30:42
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:30:42
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:30:42
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:31:45
+select * from link where udit=1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:31:45
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:31:45
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 17:31:45
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:13
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:13
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:13
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:13
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:44
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:44
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 6,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:44
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:44
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:56
+update art set pv=pv+1 where art_id=12 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:56
+select title,des,tags,add_time,pv,contents from art where art_id=12
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:56
+select * from comment where art_id=12 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:56
+select count(*) as count from comment where art_id=12
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:56
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:56
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 18:16:56
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:21:56
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:21:56
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:21:56
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:21:56
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:22:04
+select * from link where udit=1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:22:04
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:22:04
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:22:04
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:20
+select * from user where name='admin' and password='980913'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:21
+insert into log (user_name,ip,time,browser,os,adress) values ('admin','58.243.151.114','1573385060','Chrome','Windows 10','安徽蚌埠')
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:21
+update user set updated_at='1573385060',login_ip='58.243.151.114',login_times=login_times+1 where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:22
+select count(*)  from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:22
+select count(*)  from comment
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:22
+select count(*) from link 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:22
+select count(*) from log 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:22
+select login_times from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:22
+select updated_at from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:22
+select login_ip from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:26
+select * from link order by link_id desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:38
+select * from link where link_id=3
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:49
+update link set link_name='编程难',link_web='http://bianchengnan.gitee.io',link_img='https://bianchengnan.gitee.io/images/avatar.jpg',link_des='Coding is hard, you can make it easy!' where link_id=3
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:53
+select * from link order by link_id desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:24:57
+select * from link order by link_id desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:04
+select * from link where link_id=4
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:12
+select * from link where link_id=4
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:22
+select * from link where udit=1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:22
+insert into link (link_name,link_web,link_img,link_des) values ('有你哪都是故乡！','https://zhanbing.top/','https://zhanbing.top/wp-content/uploads/2019/11/QQ图片20191031192706.jpg','一个00后')
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:22
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:22
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:22
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:25
+select * from link where udit=1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:25
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:25
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:25
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:42
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:42
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:42
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:25:42
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:04
+update link set link_name='有你哪都是故乡！',link_web='http://zhanbing.cf',link_img='http://zhanbing.cf/wp-content/uploads/2019/11/QQ图片20191031192706.jpg',link_des='技术' where link_id=4
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:13
+select * from link order by link_id desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:20
+select udit from link where link_id=5 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:20
+update link set udit=1 where link_id=5
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:23
+select * from link order by link_id desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:24
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:24
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:24
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:24
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:25
+select * from link where udit=1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:25
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:25
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:25
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:26
+select udit from link where link_id=5 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:26
+update link set udit=0 where link_id=5
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:29
+select * from link order by link_id desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:46
+select * from link where udit=1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:46
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:46
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:27:46
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:29:20
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:29:20
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:29:20
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:29:20
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:31:33
+select * from link where udit=1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:31:33
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:31:33
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:31:33
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:13
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:13
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:13
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:13
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:42
+select * from link where udit=1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:42
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:42
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:42
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:53
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:53
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:53
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:32:53
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:33:36
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:33:36
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:33:36
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:33:36
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:10
+select * from link where udit=1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:10
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:10
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:10
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:13
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:13
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:13
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:13
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:23
+select count(*)  from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:23
+select count(*)  from comment
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:23
+select count(*) from link 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:23
+select count(*) from log 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:23
+select login_times from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:23
+select updated_at from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:23
+select login_ip from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:24
+select count(*)  from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:24
+select count(*)  from comment
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:24
+select count(*) from link 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:24
+select count(*) from log 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:24
+select login_times from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:24
+select updated_at from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:24
+select login_ip from user  where name='admin'
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:29
+select * from link order by link_id desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:38:45
+select * from link where link_id=4
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 19:39:05
+select * from link where link_id=3
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 20:07:59
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 20:07:59
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 20:07:59
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 20:07:59
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 20:08:45
+select * from user where name='' and password=''
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 20:10:17
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 20:10:17
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 20:10:17
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 20:10:17
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 20:14:27
+select * from user where name='' and password=''
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:03:14
+update art set pv=pv+1 where art_id=43 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:03:14
+select title,des,tags,add_time,pv,contents from art where art_id=43
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:03:14
+select * from comment where art_id=43 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:03:14
+select count(*) as count from comment where art_id=43
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:03:14
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:03:14
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:03:14
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:19:10
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:19:10
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:19:10
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:19:10
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:19:11
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:19:11
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:19:11
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:19:11
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:48:39
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:48:39
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:48:39
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:48:39
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:48:40
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:48:40
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:48:40
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 21:48:40
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 22:14:10
+update art set pv=pv+1 where art_id=12 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 22:14:10
+select title,des,tags,add_time,pv,contents from art where art_id=12
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 22:14:10
+select * from comment where art_id=12 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 22:14:10
+select count(*) as count from comment where art_id=12
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 22:14:10
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 22:14:10
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 22:14:10
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:09:12
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:09:12
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:09:12
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:09:12
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:14:10
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:14:10
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:14:10
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:14:10
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:14:11
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:14:11
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:14:11
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:14:11
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:29:20
+select * from link where udit=1
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:29:20
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:29:20
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:29:20
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:30:31
+update art set pv=pv+1 where art_id=42 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:30:31
+select title,des,tags,add_time,pv,contents from art where art_id=42
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:30:31
+select * from comment where art_id=42 order by time desc
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:30:31
+select count(*) as count from comment where art_id=42
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:30:31
+select catname,cat_id from cat
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:30:31
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:30:31
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:45:23
+select count(*) from art
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:45:23
+select art_id,pic,title,des,tags,add_time,pv from art order by add_time desc LIMIT 0,6
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:45:23
+select art_id,title,pic,des from art order by pv desc LIMIT 3 
+-----------------------------------
+
+
+-----------------------------------
+2019-11-10 23:45:23
+select art_id,title,pic,des from art order by add_time desc LIMIT 3 
+-----------------------------------
+
+

@@ -1,0 +1,79 @@
+@charset "utf-8";
+/**
+Date:2012;
+Author:qwguo;
+purpose：在线客服 style;
+**/
+
+/* 默认样式 */
+body{font-size:12px}
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,form,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}ol,ul,li,dl{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}.q{zoom:1;}.q:after{content:".";height:0px;clear:both;visibility:hidden;display:block;}.C-lr{clear:both;height:0px;width:auto;font-size:0px;line-height:0px;display:block;}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:Verdana,arial, sans-serif;font-size:inherit;font-weight:inherit;*font-size:100%;}del,ins{text-decoration:none;}html{overflow-y:scroll;_background-image:url(about:blank);_background-attachment:fixed;_overflow-x:hidden;}
+
+
+
+/* 在线客服 */
+#onService_panel{position:fixed;width:100px;right:-102px;top:88px;_position:absolute;_top:expression(eval(document.documentElement.scrollTop + 88));z-index:20;color:#000;}
+.online_boxs .boxs_t_l,.online_boxs .boxs_t_r,.online_boxs .boxs_b_l,.online_boxs .boxs_b_r,#onlineList .online_open,#onlineList .online_close,#onlineList small,#onlineMessage .submitBut{background-image:url(../images/online_service.png);_background-image:url(../images/online_service_ie6.png);background-repeat:no-repeat;}
+/*--在线公用盒子样式--*/
+.online_boxs .boxs_t_l,.online_boxs .boxs_t_r,.online_boxs .boxs_b_l,.online_boxs .boxs_b_r{display:block;width:10px;height:10px;position:absolute;}
+.online_boxs .boxs_t_m,.online_boxs .boxs_b_m{background-image:url(../images/service_panel_bg_top_b.png);background-repeat:repeat-x;margin:0px 9px;height:10px;display:block;}
+.online_boxs .boxs_t,.online_boxs .boxs_b{height:10px;position:relative;overflow:hidden;}
+.online_boxs .boxs_t_l,.online_boxs .boxs_b_l{left:0px;top:0px;}
+.online_boxs .boxs_t_l{background-position:-79px -39px;}
+.online_boxs .boxs_t_r{background-position:-89px -39px;}
+.online_boxs .boxs_t_r,.online_boxs .boxs_b_r{right:0px;top:0px;}
+.online_boxs .boxs_b_l{background-position:-79px -49px;}
+.online_boxs .boxs_b_r{background-position:-89px -49px;}
+.online_boxs .boxs_t_m{background-position:0px 0px;}
+.online_boxs .boxs_b_m{background-position:0px -10px;}
+.online_boxs .boxs_m_l,.online_boxs .boxs_m_r{background-image:url(../images/service_panel_bg_left_b.png);background-repeat:repeat-y;}
+.online_boxs .boxs_m_l{background-position:left 0;padding-left:10px;}
+.online_boxs .boxs_m_r{background-position:right 0;padding-right:10px;}
+.online_boxs .box_m_m{background-color:#f1f1f1;min-height:10px;_height:10px;}
+/*---在线客服内部样式---*/	
+#onlineList{padding:20px 1px 1px;position:relative;z-index:1;}
+/*--在线客服打开关闭按钮--*/
+#onlineList .online_open{width:35px;height:146px;background-position:0 -39px;position:absolute;left:-45px;top:35%;overflow:hidden;cursor:pointer;}
+#onlineList .online_open_en{background-position:0 -239px;}
+#onlineList .online_open_f{background-position:0 -390px;}
+#onlineList .online_open:hover{background-position:-37px -39px;}
+#onlineList .online_open_en:hover{background-position:-37px -239px;}
+#onlineList .online_open_f:hover{background-position:-37px -390px;}
+#onlineList .online_close{display:block;width:16px;height:16px;background-position:-68px -16px;position:absolute;top:-0px;left:0px;cursor:pointer;}
+#onlineList .online_close:hover{background-position:-84px -16px;}
+/*--在线客服图标--*/
+#onlineList .online_icon{margin-bottom:10px;border-radius:5px;padding:5px 0 0;cursor:pointer;}
+#onlineList .online_icon:hover{background-color:#ddd;}
+#onlineList .pic,#onlineList .name{display:block;text-align:center;}
+#onlineList .name{font:700 14px/24px "微软雅黑","Microsoft Yahei";}
+
+/*--在线客服tab--*/
+#onlineList .online_tab{position:absolute;display:none;}
+#onlineList .online_tab_c{position:relative;}
+#onlineList .online_tab_c small{display:block;position:absolute;}
+#onlineList .online_tab_c small.sanjiao{width:36px;height:36px;right:-42px;background-position:-6px 0px;overflow:hidden;}
+#onlineList .online_tab_c small.tab_close{background-position:-68px 0px;right:-5px;top:-5px;width:16px;height:16px;cursor:pointer;}
+#onlineList .online_tab_c small.tab_close:hover{background-position:-84px 0px;}
+
+#onlineTelTab{right:100px;top:0px;width:240px;}
+#onlineTel small{top:30px;}
+#onlineTel dt{font:700 14px/30px "微软雅黑";}
+#onlineTel dd{line-height:24px;}
+
+#onlineQQTab{right:100px;top:100px;width:96px;}
+#onlineQQ{min-height:80px;_height:80px;}
+#onlineQQ small{top:30px;}
+#onlineQQ dt{font:700 14px/30px "微软雅黑";text-align:center;}
+#onlineQQ dd{line-height:24px;}
+
+#onlineMessageTab{right:100px;top:200px;width:340px;}
+#onlineMessage{min-height:80px;_height:80px;}
+#onlineMessage small{top:30px;}
+#onlineMessage dl{padding-top:15px;}
+#onlineMessage dt textarea{width:310px;height:70px;padding:4px;border:1px solid #bfbfbf;}
+#onlineMessage dd{height:30px;}
+#onlineMessage dd.text_length{text-align:right;line-height:30px;}
+#onlineMessage label{display:block;width:60px;line-height:26px;float:left;}
+#onlineMessage .text_input{height:22px;border:1px solid #bfbfbf;width:158px;line-height:22px;margin-top:1px;}
+#onlineMessage .submitBut{width:84px;height:25px;background-position:0px -186px;border:0px;color:#383838;margin-left:10px;cursor:pointer;}
+#onlineMessage .submitBut:hover{background-position:0px -212px;}

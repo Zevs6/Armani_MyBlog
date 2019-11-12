@@ -1,0 +1,116 @@
+ .post-content,   .banner-content,  .nav-content {
+    font-size: 144%;
+} 
+.post-content p{
+	margin: 20px 0;
+}
+.post-content h3 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+
+.links-box {
+    margin: 10px;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media (min-width: 992px)
+.links-container {
+    padding: 12px;
+}
+@media (min-width: 768px)
+.links-container {
+    padding: 10px;
+}
+
+.links-container {
+    padding: 6px;
+}
+@media (min-width: 992px)
+
+.col-lg-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+@media (min-width: 768px)
+
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-6 {
+    flex: 0 0 21%;
+    max-width: 50%;
+}
+
+.post-content a:not(.no-line) {
+    position: relative;
+    color: var(--theme-color);
+}
+.post-content a:not(.no-line)::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--theme-color);
+    transform-origin: bottom right;
+    transform: scaleX(0);
+    transition: transform .5s ease;
+}
+
+
+.links-item {
+    background: #fff;
+    box-shadow: 0 3px 1px #ccc;
+    -webkit-box-shadow: 0 1px 3px #ccc;
+    -moz-box-shadow: 0 3px 1px #ccc;
+    overflow: hidden;
+    transition: all .2s!important;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+.links-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 28px #ccc;
+    -webkit-box-shadow: 0 6px 28px #ccc;
+    -moz-box-shadow: 0 6px 28px #ccc;
+    transform: translateY(-6px);
+}
+
+.links-title {
+    text-align: center;
+}
+
+.links-title h4 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    font-size: 16px;
+    margin: 14px 0;
+}

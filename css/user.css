@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
+::-webkit-scrollbar  
+{  
+    width: 10px;  /*滚动条宽度*/
+    height: 10px  /*滚动条高度*/
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+::-webkit-scrollbar-track  
+{  
+    /*滚动条的背景区域的内阴影*/
+    box-shadow:0px 1px 3px rgba(0,0,0,0.3) inset;
+    /*滚动条的背景区域的圆角*/
+    border-radius: 10px;  
+    /*滚动条的背景颜色*/
+    background-color: #ddd;
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+::-webkit-scrollbar-thumb  
+{  
+    /*滚动条的内阴影*/
+    box-shadow:0px 1px 3px rgba(0,0,0,0.3) inset;
+    /*滚动条的圆角*/
+    border-radius: 10px;  
+    /*滚动条的背景颜色*/
+    background-color: #1abc9c;  
+} 
+
+
+
+/* 
+定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸 
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px
+}
+/*定义滚动条轨道
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em
+}
+/*定义滑块 内阴影+圆角
+::-webkit-scrollbar-thumb {
+    background-color: #0093ff;
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em
+} */

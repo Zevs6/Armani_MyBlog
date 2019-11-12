@@ -1,0 +1,138 @@
+#response{
+	display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.comment-input input, .comment-textarea {
+    display: block;
+    resize: none;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 90%;
+    padding: 16px;
+	outline: none;
+	margin-bottom: 20px
+}
+#comment-form label {
+    display: none;
+}
+
+.comment-submit button {
+    display: block;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+    background-color: #00f;
+    color: #fff;
+    padding: 16px 10px;
+    width: 96%;
+    cursor: pointer;
+    transition: opacity .2s;
+    margin-top: 30px;
+}
+
+
+.respond{
+	padding-left: 20px
+}
+
+/* @media (min-width: 768px)
+ .col-md-4 {
+	float: left;
+	margin-right: 65px;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+} */
+
+
+.comment-title {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 26px;
+}
+
+.comment-body {
+    margin: 28px 0;
+    padding: 0;
+    position: relative;
+}
+
+.comment-body-inner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.comment-author-avatar img {
+    border-radius: 10000px;
+    height: 50px;
+	width: 50px;
+	position: relative;
+    bottom: 88px;
+}
+
+.comment-main, .comment-author-avatar {
+    margin: 0;
+    padding: 0;
+}
+
+.bubble.comment-content {
+    background: rgb(238,238,238);
+    padding: 3px 8px;
+    padding-right: 12px;
+    padding-top: -3px;
+    border-radius: 4px;
+    min-width: 10px!important;
+    margin-left: 25px;
+}
+.bubble.comment-content:before {
+    border-right-color: rgb(238,238,238);
+}
+
+.bubble:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    right: 100%;
+    top: 8px;
+    left: 60px;
+    border-top: 8px solid transparent;
+    border-right: 16px solid rgb(238,238,238);
+    border-bottom: 8px solid transparent;
+}
+
+.comment-author-info p {
+    margin-top: 5px;
+    color: gray;
+    font-size: 15px;
+}
+
+
+.comment-author {
+    font-size: 0.8em;
+    background: rgb(240,240,240);
+    border-radius: 3px;
+    padding: 2px 3px;
+    letter-spacing: 2px;
+	transition: all 0.2s;
+	margin-left: 25px;
+}
+
+.comment-content p {
+    color: #000;
+    font-size: 16px;
+    word-break: break-all;
+    vertical-align: center;
+    padding: 10px 16px;
+}
+
+.comment-author-info p {
+    margin-top: 5px;
+    color: gray;
+    font-size: 15px;
+}
