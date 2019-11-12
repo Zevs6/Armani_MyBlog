@@ -4,9 +4,9 @@
 
 为完成学校的期末课程设计，花了将近两个月闲暇之余，制作了一个简单的博客网站。下面我将这几天的操作流程来说一下，在原文末会贴上部分代码，也会给出下载链接。（闲复制代码麻烦的可以到下载地址这里直接下载 )
 
-**GitHub下载:** [点击下载](https://github.com/zevs6)
+**GitHub下载:** [点击下载](https://github.com/Zevs6/Armani_MyBlog)
 
-**码云下载：**[点击下载]()
+**码云下载：**[点击下载](https://gitee.com/Zevs6/Armani_MyBlog)
 
 **codding下载：**[点击下载]()
 
